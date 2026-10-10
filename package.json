@@ -1,0 +1,19 @@
+{
+  "name": "resumeflow",
+  "version": "1.0.0",
+  "description": "ResumeFlow - a personal resume workspace built with HTML, CSS, JavaScript, Express and MySQL.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0"
+  }
+}
